@@ -1,4 +1,5 @@
 # ejercicio02-vue
+Página "Sobre mí" (Profile) con diferentes componentes para cosas como: foto, información personal, habilidades y experiencia laboral. Tecnología a utilizar Vue 3. (opcional vue boostrap o vuetify).
 
 ## Project setup
 ```
