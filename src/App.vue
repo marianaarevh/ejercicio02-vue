@@ -3,6 +3,7 @@
     <NavBar/>
     <FotoP/>
     <InformacionPersonal/>
+    <HabilidadesP/>
     <PiePagina/>
     <BtnArriba/>
   </div>
@@ -12,6 +13,7 @@
 import NavBar from './components/NavBar.vue'
 import FotoP from './components/FotoP.vue'
 import InformacionPersonal from './components/InformacionPersonal.vue'
+import HabilidadesP from './components/HabilidadesP.vue'
 import PiePagina from './components/PiePagina.vue'
 import BtnArriba from './components/BtnArriba.vue'
 
@@ -22,8 +24,9 @@ export default {
     NavBar,
     FotoP,
     InformacionPersonal,
+    HabilidadesP,
     PiePagina,
-    BtnArriba
+    BtnArriba,
 }
 }
 </script>
