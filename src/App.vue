@@ -2,6 +2,7 @@
     <div id="app">
     <NavBar/>
     <FotoP/>
+    <InformacionPersonal/>
     <PiePagina/>
     <BtnArriba/>
   </div>
@@ -10,6 +11,7 @@
 <script>
 import NavBar from './components/NavBar.vue'
 import FotoP from './components/FotoP.vue'
+import InformacionPersonal from './components/InformacionPersonal.vue'
 import PiePagina from './components/PiePagina.vue'
 import BtnArriba from './components/BtnArriba.vue'
 
@@ -19,9 +21,10 @@ export default {
   components: {
     NavBar,
     FotoP,
+    InformacionPersonal,
     PiePagina,
     BtnArriba
-  }
+}
 }
 </script>
 
@@ -45,7 +48,10 @@ body{
 }
 
 section {
-  height: 100vh;
+  height: auto;
+  scroll-margin-top:  10px;
+  padding: 10px 20px;
+  margin: 10px 20px;
 }
 
 h1 {
@@ -54,7 +60,14 @@ h1 {
     margin-bottom: 0;
 }
 
-h3 {
+h2 {
     font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 </style>

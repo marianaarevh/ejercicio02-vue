@@ -3,7 +3,8 @@
 
     <nav>
       <ul>
-        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#inicio">Sobre mi</a></li>
+        <li><a href="#sobre-mi">Sobre mi</a></li>
         <li><a href="#">Habilidades</a></li>
         <li><a href="#">Experiencias</a></li>
         <li><a href="#footer">Contacto</a></li>
@@ -59,6 +60,7 @@ nav li a{
     text-decoration: none;
     padding: 5px;
     color: var(--base-color);
+    font-size: 1.2rem;
 }
 
 nav li:hover {
