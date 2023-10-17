@@ -1,16 +1,23 @@
 <template>
     <div id="app">
     <NavBar/>
+    <PiePagina/>
+    <BtnArriba/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import PiePagina from './components/PiePagina.vue'
+import BtnArriba from './components/BtnArriba.vue'
+
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    PiePagina,
+    BtnArriba
   }
 }
 </script>
