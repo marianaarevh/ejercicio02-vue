@@ -5,18 +5,18 @@
             <div class="skills">
                 <h3>Hard skills</h3>
                 <ul>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>Github</li>
+                    <li v-for="hardskill in hardskills" :key="hardskill">
+                         {{ hardskill }}
+                    </li>
                 </ul>
             </div>
 
             <div class="skills">
                 <h3>Soft skills</h3>
                 <ul>
-                    <li>Autoaprendizaje</li>
-                    <li>Esfuerzo</li>
-                    <li>Empatia</li>
+                    <li v-for="softskill in softskills" :key="softskill">
+                         {{ softskill }}
+                    </li>
                 </ul>
                 
             </div>
@@ -24,9 +24,9 @@
             <div class="skills">
                 <h3>Idiomas</h3>
                 <ul>
-                    <li>Español</li>
-                    <li>Ingles</li>
-                    <li>Aleman</li>
+                    <li v-for="idioma in idiomas" :key="idioma">
+                         {{ idioma }}
+                    </li>
                 </ul>
             </div>
         </div>
@@ -35,9 +35,27 @@
 
 
 <script>
-export default {
-      name: 'HabilidadesP',
+ export default {
+    data() {
+      return {
+        hardskills: [
+          'Python',
+          'Github',
+          'HTML'
+        ],
+        softskills: [
+          'Autoaprendizaje',
+          'Esfuerzo',
+          'Empatía'
+        ],
+        idiomas: [
+          'Español',
+          'Ingles',
+          'Aleman'
+        ]
+      };
     }
+  };
 </script>
 
 
