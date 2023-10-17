@@ -5,11 +5,11 @@
             <div class="contenedor-experiencias">
             <div class="main-pic card">
                 <img src="../assets/img/investigacion.png" alt="Verano de Investigacion (Mariana A.)">
-                <h4>Verano de investigación en Edo. Mexico</h4>
+                <h3>Verano de investigación en Edo. Mexico</h3>
             </div>
                 <div class="main-pic card">
                     <img src="../assets/img/new-mexico.jpg" alt="Internado (Mariana A.)">
-                    <h4>Internado en Nuevo Mexico</h4>
+                    <h3>Internado en Nuevo Mexico</h3>
                 </div>
         </div>
         </section>

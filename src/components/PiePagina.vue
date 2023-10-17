@@ -24,4 +24,11 @@ footer{
     margin: 0;
 }
 
+footer a{
+    color: var(--base-color);
+    padding: 5px;
+    margin: 5px;
+    font-size: 2rem;
+}
+
 </style>
