@@ -5,8 +5,8 @@
       <ul>
         <li><a href="#inicio">Sobre mi</a></li>
         <li><a href="#sobre-mi">Sobre mi</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Experiencias</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#experiencias">Experiencias</a></li>
         <li><a href="#footer">Contacto</a></li>
 
       </ul>

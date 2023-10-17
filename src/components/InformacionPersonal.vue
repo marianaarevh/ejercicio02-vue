@@ -18,14 +18,22 @@
 <style>
 #sobre-mi {
     display: grid;
-    grid-template-columns: 0.7fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
     grid-gap: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
     padding: 60px;
-    background-color: var(--accent-color);
-    color: var(--base-color);
+    background-color: var(--base-color);
     margin: 10px 0px;
+}
+
+#sobre-mi h1{
+    text-align: left;
+    color: var(--accent-color);
+}
+
+#sobre-mi h3{
+    text-align: left;
 }
 
 
